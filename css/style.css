@@ -3,3 +3,97 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+
+header{
+    background-color: #99AC9C;
+    opacity: 80%;
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.logo{
+    width: 450px;
+    height: 150px;
+    }
+    
+.cta_women {
+    background-color:#FFC979 ;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 550;
+    padding: 25px 35px;
+    border-radius: 5px;
+    position: relative;
+    top: 600px;
+    left: 1050px;
+    ;
+    
+}
+
+.cta_men {
+    background-color:#FFC979 ;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    padding: 25px 65px;
+    border-radius: 5px;
+    position: relative;
+    top: 600px;
+    left: 1100px;
+    ;
+}
+
+
+
+
+   
+
+.quote_one{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    position: absolute;
+    top: 600px;
+    left: 1400px;
+
+}
+
+.quote_two{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    position: absolute;
+    top: 700px;
+    left: 1200px;
+
+}
+
+
+.womens_mens{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.icon_text{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
