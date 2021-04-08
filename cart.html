@@ -5,5 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Your shopping cart" />
     <title>RainyDays | Cart</title>
-    <link href="css/styles.css" rel="stylesheet" />
-    <p>Cart</p>
+    <link href="css/cart.css" rel="stylesheet" />
+  </head>
+    <body>
+      <header>
+        <div class="top"> 
+         <nav>
+          <ul>
+            <li class="about"><a href="about.html"> About us</a></li>
+            <li class="contact"><a href="contact.html">Contact</a></li>
+            <li class="cart"><a href="cart.html">Cart</a></li>
+          </ul>
+        </nav>
+        <input class="search-bar" type="text" placeholder="Search">
+      </div>
+        <a href="index.html"> <img src="images/rainydays_logo.png" alt="rainydays logo" class="logo" >
+      <div class="womens-mens">
+        <p class="womens"><a href="womens.html">women's</a></p>
+        <p class="mens"><a href="mens.html">men's</a></p>
+      </div>
+      <h1 style="text-align:center;">cart</h1>
+      </header>
+      <main>
+        <div class="container">
+          <div class="row">
+            <div class="column">
+              <h2>Billing information</h2>
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="adress">Last Name</label>
+              <input type="text" id="adress" name="adress" placeholder="Your adress..">
+        
+              <label for="city">City</label>
+              <input type="text" id="city" name="city" placeholder="City..">
+        
+              <label for="zip">Zip code</label>
+              <input type="text" id="zip" name="zipcode" placeholder="Zip code..">
+            
+              <label for="country">Contry</label>
+              <input type="text" id="country" name="country" placeholder="Country..">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Email..">
+          </div>
+            <div class="column">
+              <form action="/action_page.php">
+                <h2>Card Details</h2>
+                <label for="cardnr">Card Number</label>
+                <input type="text" id="cardnr" name="cardnr" placeholder="Card Number">
+
+                <label for="cardholder">Cardholder Name</label>
+                <input type="text" id="cardholder" name="cardholder" placeholder="Cardholder Name">
+
+                <label for="expire">Expire Date</label>
+                <input type="text" id="expire" name="expire" placeholder="Expire Date">
+
+                <label for="ccv">ccv</label>
+                <input type="text" id="ccv" name="ccv" placeholder="ccv">
+                <input type="submit" value="Place Order">
+              </form>
+            </div>
+          </div>
+        </div>
+        
+        
+      </main>
+      </body>
+      
+  
