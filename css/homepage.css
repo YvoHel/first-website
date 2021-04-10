@@ -1,0 +1,30 @@
+header{
+    background-color:rgb(153, 172, 156, 0.7);
+}
+
+.quote{
+    visibility: hidden;
+    font-size: 1px;
+}
+
+button{
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color:#FFC979;
+    border: 1px solid black;
+}
+
+.cta-buttons{
+    
+}
+
+.cta-women{
+    padding: 10px 25px;
+}
+
+.cta-men{
+    padding: 10px 43px;
+}
+
+
+
