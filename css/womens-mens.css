@@ -2,7 +2,6 @@ img:hover{
     border: black 2px solid;
 }
     
-
 img {
     max-height: 300px;
     border: solid 1px grey;
@@ -26,7 +25,6 @@ img {
         margin-top:50px;
         text-align: center;
     }
-        
 }
 
 @media(min-width: 1000px){
@@ -45,7 +43,6 @@ img {
         margin-top: 20px;
         margin-left: 50px;
     }
-
 }
 
 @media (min-width: 1350px){
@@ -57,5 +54,4 @@ img {
     img{
         max-height: 400px;
     }
-
 }

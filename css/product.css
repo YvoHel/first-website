@@ -13,7 +13,6 @@ img{
 
 .column {
     flex: 50%;
-    
 }
 
 .price,.colors,.size{
@@ -21,7 +20,6 @@ img{
     font-weight: bold;
     border-bottom: 1px solid lightgray;
     padding-bottom: 10px;
-
 }
 
 .yellow-button, .black-button, .green-button{
@@ -64,7 +62,6 @@ img{
     border:none
 }
 
-
 .cta-button{
     font-size: 20px;
     background-color:#FFC979 ;
@@ -73,7 +70,6 @@ img{
     border:1px solid lightgray;
     border-radius: 2px;
 }
-
 
 @media(min-width:600px){
     img{
@@ -86,7 +82,6 @@ img{
 
     .price, .colors, .size{
         text-align: left;
-
     }
 
     .cta-button{
@@ -111,7 +106,6 @@ img{
 
     .row {
         margin: 50px auto;
-    
     }
 
     .colors,.size,.price{
