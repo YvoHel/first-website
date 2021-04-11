@@ -9,6 +9,12 @@
    margin-top: 20px;
   }
 
+  button:hover{
+    background-color:black;
+    color: white;
+
+  }
+
 * {
     box-sizing: border-box;
   }
