@@ -37,7 +37,7 @@ nav li{
     padding: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
-    
+    font-weight: bold;
 }
 
 .search-bar{
@@ -90,7 +90,12 @@ h1{
 @media(min-width: 900px){
     .womens-mens{
         margin-left: 300px;
-        margin-top: -55px;
+        margin-top: -65px;
+        font-size: 25px;
+    }
+
+    .womens,.mens{
+        padding-left: 75px;
     }
 
     header{
@@ -100,13 +105,18 @@ h1{
     .top{
         float:right;
         margin-right: 50px;
-        margin-top: 20px;
+        margin-top: 5px;
         font-weight: bold;
 
     }
     
     .search-bar{
         position:relative
+    }
+
+    nav li{
+        font-size: 20px;
+        margin-right: 10px;
     }
 
     .logo{
@@ -117,6 +127,7 @@ h1{
     h1{
         font-size: 22px;
     }
+
 
 
 }

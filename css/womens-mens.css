@@ -1,7 +1,7 @@
-.jacket-1:hover,.jacket-2:hover,.jacket-3:hover,.jacket-4:hover{
-    border: black 3px solid;
-
+img:hover{
+    border: black 2px solid;
 }
+    
 
 img {
     max-height: 300px;
